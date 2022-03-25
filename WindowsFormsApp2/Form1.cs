@@ -16,7 +16,6 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
 
-            pictureBox1.Image = Image.FromFile("C:\\Users\\dns\\Pictures\\tree.jpg");
         }
 
 
