@@ -96,6 +96,8 @@ namespace WindowsFormsApp2
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "CheckBox"});
             this.comboBox1.Location = new System.Drawing.Point(13, 120);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
@@ -379,7 +381,7 @@ namespace WindowsFormsApp2
             this.создатьНовыйToolStripMenuItem,
             this.сохранитьToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(59, 24);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(59, 26);
             this.toolStripMenuItem1.Text = "Файл";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.мЕНЮToolStripMenuItem_Click);
             // 
@@ -407,7 +409,7 @@ namespace WindowsFormsApp2
             this.дляПользователяToolStripMenuItem,
             this.дляРазработчикаToolStripMenuItem});
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(118, 24);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(118, 26);
             this.toolStripMenuItem2.Text = "О программе";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.мЕНЮToolStripMenuItem_Click);
             // 

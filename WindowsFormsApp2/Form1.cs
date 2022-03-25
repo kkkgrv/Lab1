@@ -16,10 +16,6 @@ namespace WindowsFormsApp2
         {
             InitializeComponent();
 
-
-            label5.Text = "Свойства и методы элементов управления";
-            label7.Text = "Свойства и методы элементов управления";
-            comboBox1.Items.Add("ComboBox");
             pictureBox1.Image = Image.FromFile("C:\\Users\\dns\\Pictures\\tree.jpg");
         }
 
