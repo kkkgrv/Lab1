@@ -20,12 +20,6 @@ namespace WindowsFormsApp2
             label5.Text = "Свойства и методы элементов управления";
             label7.Text = "Свойства и методы элементов управления";
             comboBox1.Items.Add("ComboBox");
-            CheckBox chbox1 = new CheckBox();
-            CheckBox chbox2 = new CheckBox();
-            chbox1.Text = "НЕТ";
-            chbox2.Text = "ДА";
-            chbox1.Location = new Point(30, 30);
-            chbox2.Location = new Point(30, 60);
             pictureBox1.Image = Image.FromFile("C:\\Users\\dns\\Pictures\\tree.jpg");
         }
 
